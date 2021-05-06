@@ -1,0 +1,16 @@
+
+<h1 class="StupidCoach">Stupid Coaching</h1>
+<h2 class="Answers">
+    <p><%= @answers %></p>
+    <p>-You</p>
+</h2>
+<h2 class="Responses">
+    <% if @answers == "I am going to work"%>
+        <p>Great!</p>
+    <% elsif @answers.include? "?" %>
+        <p>Silly question, get dressed and go to work!</p>
+    <% else %>
+        <p>I don't care, get dressed and go to work!</p>
+    <% end %>
+    <p>-Your coach</p>
+</h2>

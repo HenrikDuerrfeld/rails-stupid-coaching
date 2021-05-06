@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+ .StupidCoach {
+    color: red;
+    margin-left: 150px;
+ }
+.Answers {
+    font-family: Times, serif;
+    background-color: white;
+    box-shadow: purple;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Responses {
+    font-family: Times, serif;
+    background-color: white;
+    box-shadow: purple;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
